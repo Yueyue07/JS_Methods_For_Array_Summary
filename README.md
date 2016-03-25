@@ -1,4 +1,4 @@
-# Methods For Array Summary in JavaScript
+#  Summary of Methods of Array in JavaScript
 Here is the summary of methods for array, which are used frequently. 
 
 <table>
