@@ -7,7 +7,7 @@ Here is the summary of methods for array, which are used frequently.
       <th>Num</th>
       <th align="center">Methods</th>
       <th align="center">Examples</th>
-      <th align="center">Links</th>
+      <th align="center">Links(Mozilla)</th>
     </tr>
     <tr>
       <td align="center">1</td>
