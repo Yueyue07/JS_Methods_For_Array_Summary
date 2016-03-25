@@ -239,6 +239,7 @@ Here is the summary of methods for array, which are used frequently.
           return a - b;
         });
         console.log(numbers);
+        // [1, 2, 3, 4, 5]
        </code>
       </td>
       <td>
