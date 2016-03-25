@@ -197,6 +197,91 @@ Here is the summary of methods for array, which are used frequently.
       <td>
        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift">Link</a>
       </td>      
+    </tr> 
+    <tr>
+      <td align="center">12</td>
+      <td align="center">.slice()</td>
+      <td align="left">
+       <code>
+        var fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
+        var citrus = fruits.slice(1, 3);
+    
+        // citrus contains ['Orange','Lemon']
+       </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice">Link</a>
+      </td>      
+    </tr> 
+    <tr>
+      <td align="center">13</td>
+      <td align="center">.some()</td>
+      <td align="left">
+       <code>
+        function isBiggerThan10(element, index, array) {
+          return element > 10;
+        }
+        [2, 5, 8, 1, 4].some(isBiggerThan10);  // false
+        [12, 5, 8, 1, 4].some(isBiggerThan10); // true
+       </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some">Link</a>
+      </td>      
+    </tr> 
+    <tr>
+      <td align="center">14</td>
+      <td align="center">.sort()</td>
+      <td align="left">
+       <code>
+        var numbers = [4, 2, 5, 1, 3];
+        numbers.sort(function(a, b) {
+          return a - b;
+        });
+        console.log(numbers);
+       </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">Link</a>
+      </td>      
+    </tr>  
+    <tr>
+      <td align="center">15</td>
+      <td align="center">.splice()</td>
+      <td align="left">
+       <code>
+        var myFish = ['angel', 'clown', 'mandarin', 'surgeon'];
+        
+        // removes 0 elements from index 2, and inserts 'drum'
+        var removed = myFish.splice(2, 0, 'drum');
+        // myFish is ['angel', 'clown', 'drum', 'mandarin', 'surgeon']
+        // removed is [], no elements removed
+        
+        // myFish is ['angel', 'clown', 'drum', 'mandarin', 'surgeon'] 
+        // removes 1 element from index 3
+        removed = myFish.splice(3, 1);
+        // myFish is ['angel', 'clown', 'drum', 'surgeon']
+        // removed is ['mandarin']
+       </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice">Link</a>
+      </td>      
+    </tr>
+    <tr>
+      <td align="center">16</td>
+      <td align="center">.unshift()</td>
+      <td align="left">
+       <code>
+          var arr = [1, 2];
+          
+          arr.unshift(0); // result of call is 3, the new array length
+          // arr is [0, 1, 2]
+       </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift">Link</a>
+      </td>      
     </tr>    
   </tbody>
 </table>
