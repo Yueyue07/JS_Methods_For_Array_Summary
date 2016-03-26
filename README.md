@@ -1,5 +1,5 @@
 #  Summary of Methods of Array in JavaScript
-Here is the summary of methods for array, which are used frequently. 
+Here is the summary of methods for array used frequently for the purpose of your reference and comparison among each of them. 
 
 <table>
   <tbody>
