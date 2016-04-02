@@ -1,5 +1,5 @@
 #  Summary of Methods of Array in JavaScript
-Here is the summary of Array JavaScript in JavaScript with the purpose for your quick reference. 
+Here is the summary of Array Methods in JavaScript with the purpose for your quick reference. 
 
 <table>
   <tbody>
