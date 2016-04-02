@@ -312,7 +312,7 @@ Here is the summary of methods for array used frequently for the purpose of your
           }
           return element > 1;
         }
-        console.log([4, 6, 8, 12].find(isPrime));
+        console.log([4, 6, 8, 12].find(isPrime)); //5
        </code>
       </td>
       <td>
