@@ -316,7 +316,42 @@ Here is the summary of methods for array used frequently for the purpose of your
        </code>
       </td>
       <td>
-       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join">Link</a>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find">Link</a>
+      </td>      
+    </tr> 
+    <tr>
+        function isPrime(element, index, array) {
+          var start = 2;
+          while (start <= Math.sqrt(element)) {
+            if (element % start++ < 1) {
+              return false;
+            }
+          }
+          return element > 1;
+        }
+        
+        console.log([4, 6, 8, 12].findIndex(isPrime)); // -1, not found
+        console.log([4, 6, 7, 12].findIndex(isPrime)); // 2
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex">Link</a>
+      </td>      
+    </tr>
+    <tr>
+      <td align="center">19</td>
+      <td align="center">.indexOf()</td>
+      <td align="left">
+       <code>
+          var array = [2, 9, 9];
+          array.indexOf(2);     // 0
+          array.indexOf(7);     // -1
+          array.indexOf(9, 2);  // 2
+          array.indexOf(2, -1); // -1
+          array.indexOf(2, -3); // 0
+       </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">Link</a>
       </td>      
     </tr> 
   </tbody>
