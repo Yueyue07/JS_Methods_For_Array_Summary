@@ -283,6 +283,20 @@ Here is the summary of methods for array used frequently for the purpose of your
       <td>
        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift">Link</a>
       </td>      
-    </tr>    
+    </tr>
+      <tr>
+      <td align="center">17</td>
+      <td align="center">.join()</td>
+      <td align="left">
+       <code>
+          var a = ['Wind', 'Rain', 'Fire'];
+          var myVar2 = a.join(', ');  // assigns 'Wind, Rain, Fire' to myVar2
+
+       </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join">Link</a>
+      </td>      
+    </tr>   
   </tbody>
 </table>
