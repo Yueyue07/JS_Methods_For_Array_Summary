@@ -284,7 +284,7 @@ Here is the summary of methods for array used frequently for the purpose of your
        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift">Link</a>
       </td>      
     </tr>
-      <tr>
+    <tr>
       <td align="center">17</td>
       <td align="center">.join()</td>
       <td align="left">
@@ -297,6 +297,27 @@ Here is the summary of methods for array used frequently for the purpose of your
       <td>
        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join">Link</a>
       </td>      
-    </tr>   
+    </tr>
+    <tr>
+      <td align="center">18</td>
+      <td align="center">.find()</td>
+      <td align="left">
+       <code>
+        function isPrime(element, index, array) {
+          var start = 2;
+          while(start <= Marth.sqrt(element)) {
+            if (element % start++ < 1) {
+              return false;
+            }
+          }
+          return element > 1;
+        }
+        console.log([4, 6, 8, 12].find(isPrime));
+       </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join">Link</a>
+      </td>      
+    </tr> 
   </tbody>
 </table>
