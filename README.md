@@ -335,6 +335,22 @@ Here is the summary of Array Methods in JavaScript with the purpose for your qui
       <td>
        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">Link</a>
       </td>      
-    </tr> 
+    </tr>
+    <tr>
+      <td align="center">20</td>
+      <td align="center">.includes()</td>
+      <td align="left">
+       <code>
+          [1, 2, 3].includes(2);     // true
+          [1, 2, 3].includes(4);     // false
+          [1, 2, 3].includes(3, 3);  // false
+          [1, 2, 3].includes(3, -1); // true
+          [1, 2, NaN].includes(NaN); // true
+       </code>
+      </td>
+      <td>
+       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes">Link</a>
+      </td>      
+    </tr>     
   </tbody>
 </table>
